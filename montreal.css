@@ -1,0 +1,175 @@
+@media screen and (min-width:1280px){
+.container{
+    width: 1280px;
+}
+}
+@media screen and (min-width: 992px){
+    .nav {
+        position: fixed;
+    }
+}
+@media screen and (max-width: 991px){
+    .nav li{
+        float:left;
+        width:20%;
+    }
+    .gallery{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .nav li a{
+        font-size: 10px;
+        display: block;
+        padding-left: 0px;
+        
+    }
+    .gallery li{
+        width:50% !important;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .gallery li:nth-child(1){
+        width:100% !important;
+
+    }
+    .picinside img{
+        
+        height:90px !important;
+        width:200px !important;
+        margin-bottom: 20px ;
+    }
+}
+body{
+    background-color: #f5f5f5ff;
+}
+.container{
+    background-color: #fff;
+}
+header{
+    padding-left: 0!important;
+}
+.logo img{
+    
+    display: block;
+    border: 1px solid red;
+    max-height: 150px;
+    max-width:250px ;
+    margin: 0 auto;
+    
+}
+.logo span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color:red;
+    font-size: 18px;
+
+}
+.nav{
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.nav a:hover{
+    background-color:red;
+}
+.nav a::before{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: none;
+}
+.gallery li{
+    position: relative;
+    width: 25%;
+    height:128px;
+    float: left;
+    padding-right: 10px;
+    
+}
+.gallery li:nth-child(4){
+    margin-top: 10px;
+}
+.gallery li:nth-child(5){
+    margin-top: 10px;
+}
+
+.gallery li:nth-child(1){
+    width:50%;
+    
+    height:266px;
+}
+
+.gallery ul{
+    list-style-type: none;
+}
+
+.gallery li p{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:94%;
+    height:41px;
+    background: rgba(0,0,0,0.5);
+    font-size:12px;
+    color:#fff;
+    margin-bottom: 0;
+    text-align: center;
+    line-height:41px;
+    
+}
+.gallery li:nth-child(1) p{
+    width:97%;
+}
+
+.gallery img{
+    width:100%;
+    height:100%;
+}
+
+.content{
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+
+}
+.content .row{
+    border-bottom: 1px solid #ccc;
+    padding:0 10px;
+}
+.row img{
+    height: 100%;
+    width: 100%
+}
+.picinside{
+    margin-top: 50px;
+    
+}
+.picinside img{
+    width: 100%;
+}
+.banner img{
+    width:100%;
+}
+.card{
+    display: block;
+    margin-top: 20px;
+    border:1px solid #ccc;
+    
+}
